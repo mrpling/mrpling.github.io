@@ -99,11 +99,11 @@ The lookup path is deliberately simple:
 
 ```text
 rdap.ai
-   ?
+   ↓
 RFC 10023 lookup service
-   ?
+   ↓
 local recursive resolver
-   ?
+   ↓
 DNS
 ```
 
