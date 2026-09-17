@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Domains can now say they're for sale"
+title: "Domains can now say they're for sale - RFC 10023"
 date: 2026-09-17
 ---
 
