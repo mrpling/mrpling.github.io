@@ -3,10 +3,6 @@ layout: default
 title: rdap.ai Notes
 ---
 
-# rdap.ai Notes
-
-Notes on domain discovery, RDAP, DNS and pattern-based searching.
-
 This is where I write about ideas, experiments and technical developments around [rdap.ai](https://rdap.ai/) — particularly things that need a little more explanation than fits comfortably inside the application.
 
 ## Latest
