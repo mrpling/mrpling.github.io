@@ -5,7 +5,6 @@ title: rdap.ai Notes
 
 This is where I write about ideas, experiments and technical developments around [rdap.ai](https://rdap.ai/) — particularly things that need a little more explanation than fits comfortably inside the application.
 
-```liquid
 ## Latest
 
 {% for post in site.posts limit:5 %}
