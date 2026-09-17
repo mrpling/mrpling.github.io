@@ -5,15 +5,14 @@ title: rdap.ai Notes
 
 This is where I write about ideas, experiments and technical developments around [rdap.ai](https://rdap.ai/) — particularly things that need a little more explanation than fits comfortably inside the application.
 
+```liquid
 ## Latest
 
-### Domains can now say they're for sale
+{% for post in site.posts limit:5 %}
+### [{{ post.title }}]({{ post.url | relative_url }})
 
-RFC 10023 introduces a simple DNS-based way for a domain owner to explicitly indicate that a registered domain is for sale.
-
-rdap.ai is adding support for this alongside normal RDAP availability checks.
-
-**Coming shortly**
+{{ post.date | date: "%-d %B %Y" }}
+{% endfor %}
 
 ---
 
