@@ -60,8 +60,8 @@ But from the point of view of someone looking for a domain to acquire, there is 
 
 ```text
 Available
-For sale
 Registered
+ForSale
 ```
 
 An available domain can be registered immediately.
@@ -69,6 +69,12 @@ An available domain can be registered immediately.
 A domain marked with RFC 10023 is already registered, but its owner has explicitly signalled that it may be acquired.
 
 rdap.ai now checks for this signal when looking at registered domains and can show the information supplied by the owner, including asking price, text and contact links where present.
+
+Prices are indicative only and there's no automatic following of links (that's up to you). You can also turn on/off ForSale checking in the Settings area of the app.
+
+When rdap.ai receives a valid ForSale signal a small green box appears in the results which reveals the ForSale details when clicked. The domain 'example.nl' shows how this works.
+
+![ForSale in action](/assets/images/forsale-screenshot.png)
 
 ## A small protocol with interesting consequences
 
@@ -113,11 +119,11 @@ The lookup service itself is deliberately narrow: it exists to retrieve `_for-sa
 
 ## Still early
 
-RFC 10023 is new, so support is naturally limited at the moment.
+[RFC 10023](https://www.rfc-editor.org/info/rfc10023/) is new, so support is naturally limited at the moment.
 
-SIDN, the registry for `.nl`, was involved in developing and deploying the approach, and there are now tools beginning to consume the records.
+Marco Davids of SIDN labs, the registry for `.nl`, was involved in developing and deploying the approach, and there are now tools beginning to consume the records.
 
-The interesting thing is how quickly the idea spreads beyond those early implementations. The barrier to adoption is unusually low: for many domain owners, publishing the signal is simply a DNS change.
+The interesting thing is how quickly the idea spreads beyond those early implementations. The barrier to adoption is very low: for many domain owners publishing this signal is simply a DNS change.
 
 If that happens at scale, "registered" may become a less useful description on its own.
 
