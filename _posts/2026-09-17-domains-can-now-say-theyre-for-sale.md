@@ -4,7 +4,7 @@ title: "Domains can now say they're for sale"
 date: 2026-09-17
 ---
 
-# Domains can now say they're for sale
+# Domains can now say they're for sale - RFC 10023
 
 A registered domain is not necessarily an unavailable domain. This sounds obvious, but until recently there has been no standard way for the owner of a domain to say, through the DNS itself, that the domain is available to buy.
 
