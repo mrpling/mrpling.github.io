@@ -1,0 +1,8 @@
+title: rdap.ai Notes
+description: Notes on RDAP, DNS, domain discovery and pattern-based domain searching.
+
+theme: jekyll-theme-minimal
+
+url: "https://notes.rdap.ai"
+
+markdown: kramdown
