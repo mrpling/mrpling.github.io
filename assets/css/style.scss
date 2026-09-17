@@ -1,0 +1,62 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* rdap.ai-ish colour treatment */
+
+body {
+  background: #f4f5f2;
+  color: #2f3432;
+}
+
+a {
+  color: #4f6f61;
+}
+
+a:hover,
+a:focus {
+  color: #354d43;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #252a28;
+}
+
+header h1 a {
+  color: #252a28;
+}
+
+code {
+  background: #e9ece7;
+  color: #333;
+}
+
+pre {
+  background: #e9ece7;
+  border: 1px solid #d9ddd7;
+  border-radius: 6px;
+  padding: 14px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #d8dcd6;
+}
+
+/* Make long-form notes a little easier to read */
+
+section {
+  line-height: 1.65;
+}
+
+section p {
+  margin-bottom: 1.15em;
+}
+
+section h2 {
+  margin-top: 2em;
+}
