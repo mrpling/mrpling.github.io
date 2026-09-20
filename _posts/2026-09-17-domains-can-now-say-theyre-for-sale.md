@@ -70,9 +70,9 @@ A domain marked with RFC 10023 is already registered, but its owner has explicit
 
 rdap.ai now checks for this signal when looking at registered domains and can show the information supplied by the owner, including asking price, text and contact links where present.
 
-Prices are indicative only and there's no automatic following of links (that's up to you). You can also turn on/off ForSale checking in the Settings area of the app.
+Prices are indicative only and there's no automatic following of links (that's up to you). If you want you can also turn on/off ForSale checking in the Settings area of the app (see Display).
 
-When rdap.ai receives a valid ForSale signal a small green box appears in the results which reveals the ForSale details when clicked. The domain 'example.nl' shows how this works.
+When rdap.ai receives a valid ForSale signal a small green box appears in the results which reveals the ForSale details when clicked. [You can see ForSale in action by typing 'example.nl' in the Search box on rdap.ai.](https://rdap.ai)
 
 ![ForSale in action](/assets/images/forsale-screenshot.png)
 
