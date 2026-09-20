@@ -5,4 +5,7 @@ theme: jekyll-theme-minimal
 
 url: "https://notes.rdap.ai"
 
+plugins:
+  - jekyll-sitemap
+
 markdown: kramdown
