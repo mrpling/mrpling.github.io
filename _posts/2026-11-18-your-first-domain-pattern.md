@@ -116,7 +116,7 @@ swiftstudio.ai
 swiftstudio.io
 ```
 
-![The DDSL pattern generating 27 domain names in rdap.ai](/assets/images/first-domain-pattern-generated.png)
+[![The DDSL pattern generating 27 domain names in rdap.ai](/assets/images/first-domain-pattern-generated.png)](/assets/images/first-domain-pattern-generated.png)
 
 ## Step 5: Check the domains in rdap.ai
 
@@ -136,7 +136,7 @@ You can inspect which domains are available, which are registered and which coul
 
 **Don't assume a generated domain is available.** The pattern gives you possible names; the lookup gives you the current response from the registry (the org that runs that extension e.g. Verisign for .com). Results can change, and some registries limit how quickly they can be checked.
 
-![Domain availability results for a DDSL pattern in rdap.ai](/assets/images/first-domain-pattern-results.png)
+[![Domain availability results for a DDSL pattern in rdap.ai](/assets/images/first-domain-pattern-results.png)](/assets/images/first-domain-pattern-results.png)
 
 ## Step 6: Refine the pattern
 
