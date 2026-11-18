@@ -40,5 +40,51 @@
   </div>
 
   <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+  <script>
+  document.querySelectorAll('section pre').forEach(pre => {
+    const code = pre.querySelector('code');
+    if (!code) return;
+  
+    // Wrap the code block to position the button.
+    const wrapper = document.createElement('div');
+    wrapper.className = 'code-copy-wrapper';
+    pre.parentNode.insertBefore(wrapper, pre);
+    wrapper.appendChild(pre);
+  
+    const button = document.createElement('button');
+    button.className = 'code-copy-button';
+    button.type = 'button';
+    button.title = 'Copy code';
+    button.setAttribute('aria-label', 'Copy code');
+  
+    const icon = `<svg width="16" height="16" viewBox="0 0 24 24"
+      fill="none" stroke="currentColor" stroke-width="1.8"
+      stroke-linecap="round" stroke-linejoin="round">
+      <rect x="8" y="8" width="13" height="13" rx="2"/>
+      <path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/>
+    </svg>`;
+  
+    button.innerHTML = icon;
+  
+    button.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(code.textContent);
+        button.textContent = '✓';
+        button.title = 'Copied!';
+      } catch {
+        button.textContent = '!';
+        button.title = 'Copy failed';
+      }
+  
+      setTimeout(() => {
+        button.innerHTML = icon;
+        button.title = 'Copy code';
+      }, 1500);
+    });
+  
+    wrapper.appendChild(button);
+  });
+  </script>
 </body>
 </html>
