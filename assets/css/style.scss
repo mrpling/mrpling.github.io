@@ -60,3 +60,46 @@ section p {
 section h2 {
   margin-top: 2em;
 }
+
+
+/* Copy buttons on code blocks */
+
+.code-copy-wrapper {
+  position: relative;
+  margin-bottom: 1.2em;
+}
+
+.code-copy-wrapper pre {
+  padding-top: 2.7rem;
+  margin-bottom: 0;
+}
+
+.code-copy-button {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 28px;
+  padding: 0;
+  background: transparent;
+  color: #777;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 15px;
+}
+
+.code-copy-button:hover {
+  background: rgba(128, 128, 128, 0.12);
+  border-color: rgba(128, 128, 128, 0.2);
+  color: inherit;
+}
+
+.code-copy-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
