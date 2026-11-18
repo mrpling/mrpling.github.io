@@ -103,3 +103,59 @@ section h2 {
   outline: 2px solid currentColor;
   outline-offset: 2px;
 }
+
+/* Single-column article layout */
+
+body div.wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper > header,
+.wrapper > section,
+.wrapper > footer {
+  float: none;
+  position: static;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.wrapper > header {
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.wrapper > section {
+  padding: 0 0 40px;
+  margin: 0;
+  border: 0;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.wrapper > footer {
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+/* Article images */
+
+.wrapper > section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 24px auto;
+}
+
+/* Small screens */
+
+@media (max-width: 720px) {
+  .wrapper > header {
+    margin-bottom: 28px;
+  }
+
+  .wrapper > section {
+    font-size: 15px;
+  }
+}
