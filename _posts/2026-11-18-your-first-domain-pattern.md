@@ -122,7 +122,7 @@ swiftstudio.io
 
 Generating names and checking whether they are registered are two different things. DDSL creates the list; **rdap.ai checks the domains**.
 
-Open [rdap.ai/patterns](https://rdap.ai/patterns) and paste the expression from Step 4 where it says '**One domain per line or DDSL pattern**', :
+Open [rdap.ai/patterns](https://rdap.ai/patterns) and paste the expression from earlier into where it says '**One domain per line or DDSL pattern**' :
 
 ```text
 {bright,clear,swift}{lab,works,studio}.{com,ai,io}
