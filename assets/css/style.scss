@@ -158,3 +158,11 @@ body div.wrapper {
     font-size: 15px;
   }
 }
+
+/* Cleaner monospace font for DDSL examples */
+code, pre {
+  font-family: Consolas, "Cascadia Code", monospace;
+  font-size: 0.95em;
+  letter-spacing: normal;
+  font-variant-ligatures: none;
+}
