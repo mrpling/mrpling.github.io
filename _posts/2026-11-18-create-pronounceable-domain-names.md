@@ -182,7 +182,7 @@ A larger search may be divided into pages and take time to check. For this examp
 
 Then curiosity got the better of us and we checked all 2500 domains in one go using Pro (up to 5000 domains per page):
 
-[![All available pronounceable .ai four-letter domain names in rdap.ai](/assets/images/all-pronounceable-domain-results.png)](/assets/images/all-pronounceable-domain-results.png)
+[![All available pronounceable .ai four-letter domain names in rdap.ai](/assets/images/all-available-pronounceable-domain-results.png)](/assets/images/all-available-pronounceable-domain-results.png)
 
 ## Pronounceable isn't the same as desirable
 
