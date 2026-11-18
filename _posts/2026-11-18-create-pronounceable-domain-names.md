@@ -178,11 +178,11 @@ Generate the names and then run the availability check. You can inspect availabl
 
 A larger search may be divided into pages and take time to check. For this example we checked the first 250 and found 5 available (at time of writing!):
 
-[![Availability results for pronounceable four-letter domain names in rdap.ai (out of first 250 checked)](/assets/images/available-pronounceable-domain-results.png)](/assets/images/available-pronounceable-domain-results.png)
+[![Availability results for pronounceable .ai four-letter domain names in rdap.ai (out of first 250 checked)](/assets/images/available-pronounceable-domain-results.png)](/assets/images/available-pronounceable-domain-results.png)
 
-All results from the first 250 checked:
+Then curiosity got the better of us and we checked all 2500 domains in one go using Pro (up to 5000 domains per page):
 
-![First 250 results for pronounceable four-letter domain names in rdap.ai](/assets/images/pronounceable-domain-results.png)
+[![All available pronounceable .ai four-letter domain names in rdap.ai](/assets/images/all-pronounceable-domain-results.png)](/assets/images/all-pronounceable-domain-results.png)
 
 ## Pronounceable isn't the same as desirable
 
