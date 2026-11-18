@@ -128,7 +128,11 @@ Open [rdap.ai/patterns](https://rdap.ai/patterns) and paste in the expression fr
 {bright,clear,swift}{lab,works,studio}.{com,ai,io}
 ```
 
-The generated names will appear automatically where it says **Domains to check**. You'll notice that if you make changes to the pattern the generated names will also change. Now run the availability check by clicking ![The Check Domains button](/assets/images/check-domains-button.png). You can inspect which domains are available, which are registered and which could not be checked successfully. Where supported, rdap.ai may also show information suggesting that a registered domain is for sale.
+The generated names will appear automatically where it says **Domains to check**. You'll notice that if you make changes to the pattern the generated names will also change. Now run the availability check by clicking:
+
+![The Check Domains button](/assets/images/check-domains-button.png).
+
+You can inspect which domains are available, which are registered and which could not be checked successfully. Where supported, rdap.ai may also show information suggesting that a registered domain is for sale.
 
 **Don't assume a generated domain is available.** The pattern gives you possible names; the lookup gives you the current response from the registry (the org that runs that extension e.g. Verisign for .com). Results can change, and some registries limit how quickly they can be checked.
 
@@ -170,8 +174,6 @@ A conventional domain search begins with a name and asks whether it is available
 
 A pattern begins with a **space of possible names**, generates every combination you've specified, and lets you investigate the results.
 
-Today we went from one domain to 27 with a few braces and commas. The same approach can describe hundreds or even thousands of names.
-
-**The question changes from “What name should I try next?” to “What set of names do I want to explore?”**
+Today we went from one domain to 36 with a few braces and commas. The same approach can describe hundreds or even thousands of names.
 
 [Try your own pattern at rdap.ai/patterns](https://rdap.ai/patterns) 
