@@ -130,7 +130,7 @@ Open [rdap.ai/patterns](https://rdap.ai/patterns) and paste in the expression fr
 
 The generated names will appear automatically where it says **Domains to check**. You'll notice that if you make changes to the pattern the generated names will also change. Now run the availability check by clicking:
 
-![The Check Domains button](/assets/images/check-domains-button.png).
+![The Check Domains button](/assets/images/check-domains-button.png)
 
 You can inspect which domains are available, which are registered and which could not be checked successfully. Where supported, rdap.ai may also show information suggesting that a registered domain is for sale.
 
