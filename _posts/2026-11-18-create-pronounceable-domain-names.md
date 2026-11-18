@@ -63,7 +63,7 @@ The first position has three choices (`b`, `d`, `f`), the middle has five vowels
 
 **3 × 5 × 2 = 30 domain names.**
 
-A 30 generated results are:
+The 30 generated results are:
 
 ```text
 bam.ai
@@ -119,7 +119,7 @@ There are 21 possibilities for the first letter, five for the second, and 21 for
 
 That's every CVC combination in this alphabet, expressed in one line. Some will be familiar words, some might sound like plausible new brands, and others will be awkward or unappealing.
 
-![A CVC pattern in rdap.ai generating 2,205 possible domain names](/assets/images/pronounceable-cvc-pattern.png)
+[![A CVC pattern in rdap.ai generating 2,205 possible domain names](/assets/images/pronounceable-cvc-pattern.png)](/assets/images/pronounceable-cvc-pattern.png)
 
 ## Step 5: Make longer, word-like names
 
@@ -178,11 +178,11 @@ Generate the names and then run the availability check. You can inspect availabl
 
 A larger search may be divided into pages and take time to check. For this example we checked the first 250 and found 5 available (at time of writing!):
 
-![Availability results for pronounceable four-letter domain names in rdap.ai (out of first 250 checked)](/assets/images/available-pronounceable-domain-results.png)
+[![Availability results for pronounceable four-letter domain names in rdap.ai (out of first 250 checked)](/assets/images/available-pronounceable-domain-results.png)](/assets/images/available-pronounceable-domain-results.png)
 
 All results from the first 250 checked:
 
-![First 250 results for pronounceable four-letter domain names in rdap.ai](/assets/images/available-pronounceable-domain-results.png)
+![First 250 results for pronounceable four-letter domain names in rdap.ai](/assets/images/pronounceable-domain-results.png)
 
 ## Pronounceable isn't the same as desirable
 
