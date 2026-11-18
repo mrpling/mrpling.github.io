@@ -7,6 +7,14 @@ This is where I write about ideas, experiments and technical developments around
 
 ## Latest
 
+{% for post in site.posts limit:1 %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+{{ post.date | date: "%-d %B %Y" }}
+{% endfor %}
+
+## All Posts
+
 {% for post in site.posts limit:5 %}
 ### [{{ post.title }}]({{ post.url | relative_url }})
 
