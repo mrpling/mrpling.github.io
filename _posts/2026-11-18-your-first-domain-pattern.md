@@ -122,13 +122,13 @@ swiftstudio.io
 
 Generating names and checking whether they are registered are two different things. DDSL creates the list; **rdap.ai checks the domains**.
 
-Open [rdap.ai/patterns](https://rdap.ai/patterns) and paste in the expression from Step 4:
+Open [rdap.ai/patterns](https://rdap.ai/patterns) and paste the expression from Step 4 where it says '**One domain per line or DDSL pattern**', :
 
 ```text
 {bright,clear,swift}{lab,works,studio}.{com,ai,io}
 ```
 
-The generated names will appear automatically where it says **Domains to check**. You'll notice that if you make changes to the pattern the generated names will also change. Now run the availability check by clicking:
+The generated names will appear automatically in the panel '**Domains to check**'. You'll notice that if you make changes to the pattern the generated names will also change. Now run the availability check by clicking:
 
 ![The Check Domains button](/assets/images/check-domains-button.png)
 
