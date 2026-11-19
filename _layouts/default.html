@@ -6,8 +6,14 @@
 
   {% seo %}
 
-  <link rel="stylesheet"
-        href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <!-- Privacy-friendly analytics by Plausible -->
+  <script async src="https://plausible.io/js/pa-WXv5rgk60Z8b9Ak0ResvI.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+  </script>
+  
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
 
 <body>
