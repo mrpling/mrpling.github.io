@@ -109,6 +109,8 @@ Depending on the domain and your settings, registered results may also display f
 
 A failed lookup isn't evidence that a domain is available, and even an unregistered domain can be reserved or otherwise unavailable for registration. As with any domain research, treat the results as information to verify before making a purchase decision.
 
+Of the 200 domains checked, 132 were available and 68 taken. Below you can see the results filtered to show available domains in .app and .com. If I was starting a Domain Stats site I would be very happy with these results, there are some solid domain names available.
+
 [![rdap.ai showing registry lookup results for the AI-generated domain pattern](/assets/images/ai-pattern-checked-results.png)](/assets/images/ai-pattern-checked-results.png)
 
 ## Step 6: Improve the idea and try again
