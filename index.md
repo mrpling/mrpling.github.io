@@ -22,6 +22,14 @@ This is where I write about ideas, experiments and technical developments around
 {% endfor %}
 
 ---
+## Guides
+
+- ### [Your first domain pattern](/guides/first-domain-pattern/)
+- ### [Create pronounceable domain names](/guides/pronounceable-domain-names/)
+- ### [Explore a naming space systematically](/guides/explore-a-naming-space/)
+- ### [Create domain patterns with AI](/guides/domain-patterns-with-ai/)
+
+---
 
 ## Topics
 
